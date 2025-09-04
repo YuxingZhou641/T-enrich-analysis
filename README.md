@@ -31,9 +31,9 @@ region of k-3 to k+3, the score was calculated as:
 
 Examples (V = A, C or G):
 
-VVTVVVV = 1+0-4, 0 = -3 -> adjusted to 0
+VVTVVVV = 1+0-4 = -3 -> adjusted to 0
 
-TTTTTTT = 7+(1+2+3+4+5+6)-4 = 28
+TTTTTTT = 7+(1+2+3+4+5+6) = 28
 
 TTVVTTT = 5+[(1)+(1+2)]-2 = 7
 
@@ -42,9 +42,9 @@ VTTTVVT = 4+[(1+2)+0]-2 = 5
 Similarly, AT-score was calculated using the same formula as above, but considering
 both As and Ts equally. For example (S = C or G):
 
-SSTSSSS = 1+0-4, 0 = -3 -> adjusted to 0
+SSTSSSS = 1+0-4 = -3 -> adjusted to 0
 
-ATATATA = 7+(1+2+3+4+5+6)-4 = 28
+ATATATA = 7+(1+2+3+4+5+6) = 28
 
 TASSTAA = 5+[(1)+(1+2)]-2 = 7
 
